@@ -1,0 +1,25 @@
+:::::::::::::
+::: ALPHA :::
+:::::::::::::
+• v1.0 - Creación de la estructurua de carpetas acorde a la distribución de la plataforma de Mumuki.
+• v1.1 - Agregado de los ejercicios resueltos en imágenes.
+
+::::::::::::
+::: BETA :::
+::::::::::::
+• v1.0 - Agregado de la sección Primaria.
+• v1.1 - Transcripción de los ejercicios a texto.
+• v1.2 - Agregado de estampados visuales.
+• v1.3 - Agregado más de 3 patrones de seguridad e identidad.
+• v1.4 - Compresión automatizada RAR, con ID y CLAVE única responsable a cada usuario particular.
+
+:::::::::::::::
+::: RELEASE :::
+:::::::::::::::
+• v1.0.0 - Primera versión oficial.
+• v1.0.1 - Correción a ejercicios desactualizados.
+• v1.0.2 - Correción a ejercicios desactualizados.
+• v1.1.0 - Conversión de Tabs a 2 Espacios, a razón de mayor consistencia de visualización entre distintos editores.
+• v1.1.1 - Correción a ejercicios desactualizados.
+• v1.2.0 - Nueva revisión de consistencia y prolijidad en los ejercicios de archivos de texto, uso de nombres de variables más descriptivas.
+• v1.2.1 - Correción de bugs en la identidad entregada.

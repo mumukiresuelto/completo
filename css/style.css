@@ -1,0 +1,618 @@
+:root {
+	--azul: #0088cc;
+	--celeste: #17b8ec;
+	--amarillo: #ffc60b;
+	--centralWidth: 800px;
+	--gRatio: 10.33;
+	--gRatioGifs: 18.45;
+}
+body {
+	color: white;
+	font-family: Helvetica, Arial;
+	background-color: var(--celeste);
+	min-height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+p {
+	margin-bottom: min(calc(16vw*2/var(--gRatio)), 16px);
+}
+h1 {
+	margin-bottom: min(calc(8vw*2/var(--gRatio)), 8px);
+}
+strong {
+	font-weight: normal;
+}
+footer {
+	margin-top: auto;
+}
+
+/* ========================================================== */
+
+::-webkit-scrollbar {
+	width: min(calc(10vw*2/var(--gRatio)), 10px);
+}
+::-webkit-scrollbar-track {
+	overflow: hidden;
+	background: transparent;
+}
+::-webkit-scrollbar-thumb {
+	overflow: hidden;
+	background: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);;
+}
+::-webkit-scrollbar-thumb:hover {
+	overflow: hidden;
+	background: var(--amarillo);
+}
+
+/* ========================================================== */
+
+.textoNegro {
+	color: black;
+}
+.textoMumuki {
+	color: black;
+	text-decoration: underline dotted;
+}
+.textoMumuki:hover {
+	text-decoration: underline solid;
+}
+.textoCapitulo {
+	color: black;
+	font-style: italic;
+}
+.argentinaPrograma {
+	color: black;
+	font-style: italic;
+	text-decoration: underline dotted;
+}
+.argentinaPrograma:hover {
+	text-decoration: underline solid;
+}
+.textoEjercicios {
+	color: black;
+	font-style: italic;
+}
+.textoVerde {
+	font-style: italic;
+}
+.textDemora {
+	font-style: italic;
+}
+.textoDemoraEspecifica {
+	color: black;
+}
+.textoYapa {
+	color: black;
+	font-style: italic;
+}
+
+/* ========================================================== */
+
+#bodyContainer {
+	margin-left: min(calc(37.5%*2/var(--gRatio)), 37.5px);
+	margin-right: min(calc(37.5%*2/var(--gRatio)), 37.5px);
+}
+/* ========================================================== */
+
+#tituloLogoImagen {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: calc(100% / 3);
+	padding-top: min(calc(24vw*2/var(--gRatio)), 24px);
+	max-width: min(calc(175vw*2/var(--gRatio)), 175px);
+}
+#tituloLogoTexto {
+	color: black;
+	font-weight: bold;
+	text-align: center;
+	font-size: min(calc(25vw*2/var(--gRatio)), 25px);
+	padding-top: min(calc(12.5vw*2/var(--gRatio)), 12px);
+}
+
+/* ========================================================== */
+
+#descripcionHola {
+	color: black;
+	font-weight: 600;
+	font-size: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+}
+#descripcionContainer {
+	margin: auto;
+	text-align: justify;
+	max-width: var(--centralWidth);
+	padding-top: min(calc(30vw*2/var(--gRatio)), 30px);
+	padding-bottom: min(calc(6.5vw*2/var(--gRatio)), 6.5px);
+}
+#descripcionParrafos {
+	font-size: min(calc(17.5vw*2/var(--gRatio)), 17.5px);
+}
+#checkDeColorVerde {
+	margin-left: 0px;
+	display: inline-block;
+	padding-bottom: min(calc(3vw*2/var(--gRatio)), 3px);;
+	max-width: min(calc(17.5vw*2/var(--gRatio)), 17.5px);
+}
+#textoConjuntoVerde {
+	white-space: nowrap;
+}
+
+/* ========================================================== */
+
+#gifContainer {
+	margin: auto;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+	border: min(calc(2vw*2/var(--gRatio)), 2px) solid var(--amarillo);
+}
+#gif {
+	width: min(calc(600vw*2/var(--gRatioGifs)), 600px);
+}
+
+/* ========================================================== */
+
+#contenidoTitulo {
+	margin: auto;
+	color: black;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	font-size: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-bottom: min(calc(17vw*2/var(--gRatio)), 17px);
+	padding-top: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+}
+#contenidoConteiner {
+	margin: auto;
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	max-height: min(32.65vw, 294.135px);
+	gap: min(calc(10vw*2/var(--gRatio)), 10px);
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+}
+#contenidoIzq {
+	overflow-x: hidden;
+	overflow-y: scroll;
+	font-family: consola;
+	vertical-align: top;
+	align-self: flex-start;
+	max-height: min(32.65vw, 294.135px);
+	font-size: min(calc(12vw*2/var(--gRatio)), 12px);
+	padding-left: min(calc(15vw*2/var(--gRatio)), 15px);
+	padding-right: min(calc(15vw*2/var(--gRatio)), 15px);
+	border-radius: min(calc(7.5vw*2/var(--gRatio)), 7.5px);
+	padding-top: min(calc(10.5vw*2/var(--gRatio)), 10.5px);
+	padding-bottom: min(calc(10.5vw*2/var(--gRatio)), 10.5px);
+	border: min(calc(1vw*2/var(--gRatio)), 1px) solid white;
+	width: 65%;
+}
+#contenidoDer {
+	width: 35%;
+}
+.treeTop {
+	color: black;
+	font-weight: bold;
+}
+.treeMid {
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+.treeBot {
+	color: black;
+	font-weight: bold;
+	font-style: italic;
+}
+.treeBelowBot {
+	color: black;
+}
+
+/* ========================================================== */
+
+#muestreoTitulo {
+	color: black;
+	margin: auto;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	font-size: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-top: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-bottom: min(calc(17vw*2/var(--gRatio)), 17px);
+}
+
+/* ---------------------------------------------------------- */
+
+#muestreoCapConteinerMayor {
+	margin: auto;
+	overflow: hidden;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	margin-bottom: min(calc(10vw*2/var(--gRatio)), 10px);
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+	border: min(calc(2vw*2/var(--gRatio)), 2px) solid black;
+}
+#muestreoCapConteinerMenorTop {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	gap: min(calc(1vw*2/var(--gRatio)), 1px);
+}
+#muestreoCapConteinerMenorBot {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	gap: min(calc(1vw*2/var(--gRatio)), 1px);
+	padding-top: min(calc(1vw*2/var(--gRatio)), 1px);
+}
+#muestreoCap1Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap2Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap3Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap4Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap5Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap6Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap1 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap2 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap3 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap4 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap5 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoCap6 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+
+/* ---------------------------------------------------------- */
+
+#muestreoEjConteinerMayor {
+	margin: auto;
+	overflow: hidden;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	margin-bottom: min(calc(10vw*2/var(--gRatio)), 10px);
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+	border: min(calc(2vw*2/var(--gRatio)), 2px) solid var(--amarillo);
+}
+#muestreoEjConteinerMenorTop {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	gap: min(calc(1vw*2/var(--gRatio)), 1px);
+}
+#muestreoEjConteinerMenorBot {
+	display: flex;
+	align-items: stretch;
+	justify-content: stretch;
+	gap: min(calc(1vw*2/var(--gRatio)), 1px);
+	padding-top: min(calc(1vw*2/var(--gRatio)), 1px);
+}
+#muestreoEj1Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj2Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj3Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj4Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj5Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj6Container {
+	cursor: pointer;
+	width: calc(100% / 3);
+	background-color: white;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj1 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj2 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj3 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj4 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj5 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+#muestreoEj6 {
+	width: 100%;
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+}
+
+/* ========================================================== */
+
+#versionTitulo {
+	margin: auto;
+	color: black;
+	font-size: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	padding-top: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-bottom: min(calc(7.5vw*2/var(--gRatio)), 7.5px);
+}
+#versionContainer {
+	display: block;
+	margin: auto;
+	text-align: justify;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+}
+#versionDescripcion {
+	width: 0;
+	cursor: pointer;
+	font-weight: bold;
+	margin-bottom: 0px;
+	font-size: min(calc(17.5vw*2/var(--gRatio)), 17.5px);
+}
+#versionDescripcion:hover {
+	text-decoration: underline;
+}
+
+/* ========================================================== */
+
+#contactoTitulo {
+	margin: auto;
+	display: block;
+	color: black;
+	max-width: min(calc(800vw*2/var(--gRatio)), 800px);
+	font-size: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-top: min(calc(22.5vw*2/var(--gRatio)), 22.5px);
+	padding-bottom: min(calc(7.5vw*2/var(--gRatio)), 7.5px);
+}
+.contactoTexto {
+	font-size: min(calc(17.5vw*2/var(--gRatio)), 17.5px);
+}
+.textoMensaje {
+	font-style: italic;
+}
+#telegramLink {
+	color: white;
+}
+#contactoContainer {
+	margin: auto;
+	text-align: justify;
+	max-width: var(--centralWidth);
+}
+#textoTelegramLink {
+	text-decoration: unset;
+}
+#textoTelegram {
+	color: black;
+	font-weight: 600;
+	text-decoration: unset;
+}
+#contactoDescripcion {
+	margin-bottom: min(calc(10.5vw*2/var(--gRatio)), 10.5px);
+}
+#contactoTelegramContainerMayor {
+	display: flex;
+	width: min(calc(177.5vw*2/var(--gRatio)), 177.5px);
+	background-color: var(--azul);
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+	border: min(calc(2vw*2/var(--gRatio)), 2px) solid white;
+}
+#contactoTelegramContainerMenor {
+	cursor:pointer;
+	margin-bottom: 0px;
+	align-items: center;
+	display: inline-flex;
+	height: min(calc(30vw*2/var(--gRatio)), 30px);
+}
+#contactoTelegramLogo {
+	max-width: min(calc(20vw*2/var(--gRatio)), 20px);
+	margin-left: min(calc(7.5vw*2/var(--gRatio)), 7.5px);
+	border-radius: min(calc(15vw*2/var(--gRatio)), 15px);
+	border: min(calc(2vw*2/var(--gRatio)), 2px) solid white;
+}
+#contactoTelegramUsuario {
+	float: right;
+	font-weight: bold;
+	margin-bottom: 0px;
+	padding-bottom: 0px;
+	padding-bottom: min(calc(1vw*2/var(--gRatio)), 1px);
+	padding-right: min(calc(12vw*2/var(--gRatio)), 12px);
+	padding-left: min(calc(7.5vw*2/var(--gRatio)), 7.5px);
+}
+#contactoTelegramUsuario:hover {
+	text-decoration: underline solid;
+}
+
+/* ========================================================== */
+
+
+
+/* ========================================================== */
+
+#footerContainer {
+	margin-top: min(calc(175vw*2/var(--gRatio)), 175px);
+	height: min(calc(120vw*2/var(--gRatio)), 120px);
+	width: 100%;
+	background-color: var(--azul);
+	display: flex;
+	justify-content: space-between;
+}
+#footerIzqContainer {
+	width: 50%;
+	height: 100%;
+	padding-top: min(calc(14vw*2/var(--gRatio)), 14px);
+	padding-left: min(calc(20vw*2/var(--gRatio)), 20px);
+}
+#footerIzqTop {
+	display: flex;
+	flex-direction: column;
+}
+#footerIzqMumukiResuelto {
+	margin-bottom: min(calc(34vw*2/var(--gRatio)), 34px);
+	font-size: min(calc(13.85vw*2/var(--gRatio)), 13.85px);
+	font-style: italic;
+	color: var(--amarillo);
+}
+#footerIzqRedesTexto {
+	margin-top: min(calc(4vw*2/var(--gRatio)), 4px);
+	font-size: min(calc(13.85vw*2/var(--gRatio)), 13.85px);
+	font-style: italic;
+	color: white;
+	margin-bottom: min(calc(1vw*2/var(--gRatio)), 1px);
+}
+#redesIconosContainer {
+	display: flex;
+	align-items: baseline;
+	justify-content: space-between;
+	width: min(calc(141vw*2/var(--gRatio)), 141px);
+}
+
+/* ---------------------------------------------------------- */
+
+#redEmail {
+	width: min(calc(13vw*2/var(--gRatio)), 13px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redFacebook {
+	width: min(calc(13vw*2/var(--gRatio)), 13px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redLinkedin {
+	width: min(calc(13vw*2/var(--gRatio)), 13px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redReddit {
+	margin-left: min(calc(4vw*2/var(--gRatio)), 4px);
+	width: min(calc(16vw*2/var(--gRatio)), 16px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redTelegram {
+	margin-left: min(calc(3vw*2/var(--gRatio)), 3px);
+	width: min(calc(13vw*2/var(--gRatio)), 13px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redTumblr {
+	margin-left: min(calc(3vw*2/var(--gRatio)), 3px);
+	width: min(calc(8vw*2/var(--gRatio)), 8px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redTwitter {
+	margin-left: min(calc(3vw*2/var(--gRatio)), 3px);
+	width: min(calc(15vw*2/var(--gRatio)), 15px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+#redWhatsapp {
+	margin-left: min(calc(1.5vw*2/var(--gRatio)), 1.5px);
+	width: min(calc(13vw*2/var(--gRatio)), 13px);
+	filter: invert(100%) sepia(91%) saturate(38%) hue-rotate(254deg) brightness(110%) contrast(110%);
+}
+
+/* ---------------------------------------------------------- */
+
+#redEmail:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redFacebook:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redLinkedin:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redReddit:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redTelegram:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redTumblr:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redTwitter:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+#redWhatsapp:hover {
+	filter: invert(78%) sepia(47%) saturate(987%) hue-rotate(350deg) brightness(101%) contrast(101%);
+	cursor: pointer;
+}
+
+/* ========================================================== */
+
+#footerDer {
+	width: min(calc(150vw*2/var(--gRatio)), 150px);
+	height: 100%;
+	display: flex;
+	justify-content: flex-end;
+	padding-top: min(calc(12vw*2/var(--gRatio)), 12px);
+	padding-bottom: min(calc(12vw*2/var(--gRatio)), 12px);
+	padding-right: min(calc(12vw*2/var(--gRatio)), 12px);
+}
+
