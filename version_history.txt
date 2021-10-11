@@ -23,3 +23,4 @@
 • v1.1.1 - Correción a ejercicios desactualizados.
 • v1.2.0 - Nueva revisión de consistencia y prolijidad en los ejercicios de archivos de texto, uso de nombres de variables más descriptivas.
 • v1.2.1 - Correción de bugs en la identidad entregada.
+• V1.3.0 - Retomadas algunas capturas de pantalla para mayor visiblidad. Mayor amplitud en la variabilidad de identidades.
